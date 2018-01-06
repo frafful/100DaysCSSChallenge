@@ -1,0 +1,83 @@
+/*#43389F;
+ #4ec6ca; */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+body {
+  height: 100vh;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 400px;
+  border-radius: 2px;
+  box-shadow: 20px 0 50px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right top, #43389F, #4ec6ca); }
+  .frame .center {
+    position: absolute;
+    top: 50.8%;
+    left: 50.5%;
+    transform: translate(-50%, -50%); }
+    .frame .center .number {
+      position: relative;
+      height: 100px;
+      width: 200px; }
+      .frame .center .number .one-one {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 3px;
+        box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+        height: 100px;
+        width: 24px;
+        background-color: #fff;
+        z-index: 10; }
+      .frame .center .number .one-two {
+        position: absolute;
+        top: 0px;
+        left: -16px;
+        border-radius: 3px;
+        transform: rotate(45deg);
+        height: 40px;
+        width: 20px;
+        background-color: #fff;
+        opacity: .9;
+        z-index: -1; }
+      .frame .center .number .zero-one,
+      .frame .center .number .zero-two {
+        position: absolute;
+        top: 0px;
+        left: 17px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+        border: 24px solid #fff;
+        z-index: 5; }
+      .frame .center .number .zero-two {
+        left: 100px;
+        z-index: 1; }
+    .frame .center .big {
+      position: relative;
+      z-index: 20;
+      display: block;
+      text-align: center;
+      font-size: 81px;
+      line-height: 65px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-left: -8px; }
+    .frame .center .small {
+      position: relative;
+      z-index: 20;
+      display: block;
+      text-align: center;
+      font-size: 26px;
+      line-height: 30px;
+      text-transform: uppercase;
+      font-weight: 300;
+      margin-left: -4px; }
